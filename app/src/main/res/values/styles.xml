@@ -14,4 +14,8 @@
 
     </style>
 
+    <style name="loading" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/color_000000</item>
+    </style>
+
 </resources>
