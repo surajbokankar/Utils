@@ -55,6 +55,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.surajbokankar.commonutil.MainActivity;
 import com.surajbokankar.commonutil.R;
 
 import org.json.JSONObject;
@@ -785,6 +786,13 @@ if(count>1000){
         c.set(Calendar.MILLISECOND, 0);
 
         return c.getTimeInMillis();
+    }
+
+
+    public void getMainActivity(Context context){
+
+        Intent intent=new Intent(context, MainActivity.class);
+        context.startActivity(intent);
     }
 
 
