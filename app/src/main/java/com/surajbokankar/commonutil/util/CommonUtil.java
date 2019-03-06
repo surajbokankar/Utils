@@ -269,7 +269,7 @@ public class CommonUtil<T> {
             snackbar.setActionTextColor(Color.RED);
             View snackbarView = snackbar.getView();
             snackbarView.setBackgroundColor(Color.DKGRAY);
-            TextView textView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
+            TextView textView = (TextView) snackbarView.findViewById(R.id.snackbar_text);
             textView.setTextColor(Color.WHITE);
             snackbar.show();
         }
@@ -615,14 +615,11 @@ if(count>1000){
 
 
     public Date setDefaultDate(int year,int month,int day){
-
         Date initialDate = new Date();
         initialDate.setYear(year);
         initialDate.setMonth(month);
         initialDate.setDate(day);
         return initialDate;
-
-
     }
 
 
@@ -673,13 +670,7 @@ if(count>1000){
             myProgressDialog.show();
         }
 
-
     }
-
-
-
-
-
 
 
 

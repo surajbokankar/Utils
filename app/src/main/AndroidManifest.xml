@@ -3,7 +3,6 @@
     package="com.surajbokankar.commonutil">
 
     <application
-        android:supportsRtl="true"
         android:theme="@style/AppTheme"
         >
 
